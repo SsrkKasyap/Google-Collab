@@ -1,0 +1,7 @@
+# Calculate the transpose of the matrix
+transpose_matrix = [[row[i] for row in matrix] for i in range(len(matrix[0]))]
+
+# Print the transpose matrix
+print("Transpose matrix:")
+for row in transpose_matrix:
+    print(row)
