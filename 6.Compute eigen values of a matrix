@@ -1,0 +1,12 @@
+import numpy as np
+
+# Calculate eigenvalues and eigenvectors
+eigenvalues, eigenvectors = np.linalg.eig(matrix)
+
+# Print the eigenvalues and eigenvectors
+print("Eigenvalues:", eigenvalues)
+print("Eigenvectors:")
+for i in range(len(eigenvectors)):
+    print("Eigenvalue:", eigenvalues[i])
+    print("Eigenvector:", eigenvectors[:, i])
+    print()
