@@ -1,0 +1,7 @@
+import numpy as np
+
+# Calculate eigenvalues
+eigenvalues = np.linalg.eigvals(matrix)
+
+# Print the eigenvalues
+print("Eigenvalues:", eigenvalues)
