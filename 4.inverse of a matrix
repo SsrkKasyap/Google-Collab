@@ -1,0 +1,14 @@
+import numpy as np
+
+# Calculate the determinant of the matrix
+determinant = np.linalg.det(matrix)
+
+if determinant == 0:
+    print("Matrix is not invertible (determinant is zero)")
+else:
+    # Calculate the inverse of the matrix
+    inverse_matrix = np.linalg.inv(matrix)
+
+    # Print the inverse matrix
+    print("Inverse matrix:")
+    print(inverse_matrix)
