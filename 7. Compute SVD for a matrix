@@ -1,0 +1,12 @@
+import numpy as np
+
+# Compute the SVD
+U, S, Vt = np.linalg.svd(matrix)
+
+# Print the results
+print("U matrix:")
+print(U)
+print("\nS matrix (diagonal values only):")
+print(S)
+print("\nVt matrix:")
+print(Vt)
